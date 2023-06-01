@@ -1,0 +1,31 @@
+.typePlace {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+}
+
+.participants {
+    display: flex;
+    justify-content: space-between;
+}
+
+.participants div {
+    align-self: flex-end;
+}
+
+.participants img {
+    border-radius: 50%;
+}
+.inputContainer {
+    align-self: center;
+}
+.typePlace input {
+    align-self: center;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 10px;
+}

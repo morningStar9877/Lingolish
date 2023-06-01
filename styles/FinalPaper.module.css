@@ -1,0 +1,12 @@
+.finalPaper {
+    padding: 10px 20px;
+}
+.finalPaper img {
+    border-radius: 50%;
+}
+.resultBox {
+    margin: 50px 0px;
+    background-color: #d09f9f;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
