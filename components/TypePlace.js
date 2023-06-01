@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { robots } from "../data/Robots";
-import IronMan from "../public/images/champion-iron-man-infinity-war.jpg";
+// import IronMan from "../public/images/champion-iron-man-infinity-war.jpg";
 import Style from "../styles/TypePlace.module.css";
 
 const TypePlace = ({ robotLevel, userGuessHandler, timer, turn, setTimer, setTurn, setRightPlaceLetters, secretWord }) => {
@@ -43,7 +43,7 @@ const TypePlace = ({ robotLevel, userGuessHandler, timer, turn, setTimer, setTur
         <>
             <div className={Style.typePlace}>
                 <div className={Style.participants}>
-                <Image src={IronMan} alt="You" width={50} height={50} />
+                <Image src="/images/champion-iron-man-infinity-war.jpg" alt="You" width={50} height={50} />
                 <div>
                     <progress value={timer} max={100} />ّ
                 </div>
